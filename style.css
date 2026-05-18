@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf7ea;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2c662d;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: green;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.deskripsi {
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    font-size: 24px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #444;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 20px;
+}
+
+ul {
+    color: #444;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* Responsive untuk HP */
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .card {
+        width: 95%;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .deskripsi {
+        font-size: 18px;
+    }
+    p,
+    ul {
+        font-size: 16px;
+    }
+}
